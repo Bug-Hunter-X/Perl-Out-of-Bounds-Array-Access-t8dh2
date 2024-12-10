@@ -1,0 +1,1 @@
+my @array = (1, 2, 3);my $element;if ($#array >= 2){   $element = $array[2];}else{   print "Error: Array index out of bounds\n";   $element = undef; # Or handle the error appropriately}print "Element: $element\n"; 
